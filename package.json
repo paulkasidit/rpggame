@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --mode=development",
     "start": "npm run build && webpack-dev-server --open --moder=development",
-    "lint": "eslint src/*.js"
+    "lint": "eslint src/*.js",
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "Bryce Bresnan <bryce.bresnan@gmail.com> , Shelby Trodden <shelby.trodden@gmail.com>, Kasidit Srisawat <paulkasidit@gmail.com>",
