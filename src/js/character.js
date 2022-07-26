@@ -16,7 +16,7 @@ Character.prototype.createPlayerCharacter = function(userName, pronoun) {
   this.pronoun = pronoun;
 };
 
-Character.prototype.updateLevel = function() {
+Character.prototype.updateLevel = function() { 
   let xp = this.xp;
   if (xp <= 9) {
     this.level = 1;

@@ -31,3 +31,25 @@ Level 5-98 degrees/hanson/ all-4-onelevel-Backstreet Boys/nsync/destinys child/s
 choose the pronoun that best completes this sentence for you
 
 michael ssays you have hp, should also set a characters max hit points
+
+
+
+Attributes (Object): 
+-Charm-
+-Singing-
+-Dancing-
+-Fashion-
+-Luck-
+
+Class System:
+-Diva
+high singing
+high fashion
+-Underdog
+med luck
+high singing
+high dancing
+low charm
+low fashion
+-Corporate Machine
+high dancing

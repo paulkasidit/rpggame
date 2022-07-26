@@ -16,6 +16,7 @@ describe('Character', () => {
     expect(typeof(newPlayer.bonusPoints)).toEqual('object');
   });
 
+  //Tests for createPlayerCharacter function
   test('should input user collected and selected information for new player', () => {
     const newPlayer= new Character();
     newPlayer.createPlayerCharacter("brian", "he");
@@ -23,6 +24,7 @@ describe('Character', () => {
     expect (newPlayer.pronoun).toEqual("he");
   });
 
+  //Tests for UpdateLevel function
   test("should return level as level 2 if xp is between 10-100", () => {
     const newPlayer = new Character();
     newPlayer.xp = 15;
