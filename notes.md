@@ -53,3 +53,12 @@ low charm
 low fashion
 -Corporate Machine
 high dancing
+
+
+Item:
+-Descrption: "This thing does some stuff"
+-Attribute: "string" (charm, luck, etc.)
+-Attribute2: "string" (charm, luck, etc.)
+-AmounttoIncrease: number
+-AmmounttoIncrease2: number
+

@@ -9,7 +9,7 @@ export default function Character() {
   this.attributes = {};
   this.inventory = {};
   this.bonusPoints = {};
-}
+};
 
 Character.prototype.createPlayerCharacter = function(userName, pronoun) {
   this.userName = userName;
